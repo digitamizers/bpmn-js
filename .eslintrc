@@ -3,7 +3,10 @@
     "keyword-spacing": [ 2 ],
     "object-curly-spacing": [ 2, "always"],
     "space-before-blocks": [ 2, "always"],
-    "indent": [ 2, 2, { "VariableDeclarator": { "var": 2, "let": 2, "const": 3 } } ],
+    "indent": [ 2, 2, {
+      "VariableDeclarator": { "var": 2, "let": 2, "const": 3 },
+      "FunctionDeclaration": { "body": 1, "parameters": 2 }
+    } ],
     "no-unused-vars": [ 2, { "args": "none" } ],
     "space-before-function-paren": [ 2, "never" ],
     "quotes": [ 2, "single" ],
